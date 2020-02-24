@@ -1,14 +1,38 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
+[
+  {
+    "albumId": 1,
+    "id": 1,
+    "title": "Event 1",
+    "url": "data:image/jpeg;base64,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",
+    "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+  },
+  {
+    "albumId": 1,
+    "id": 2,
+    "title": "Event 2",
+    "url": "https://via.placeholder.com/600/771796",
+    "thumbnailUrl": "https://via.placeholder.com/150/771796"
+  },
+  {
+    "albumId": 1,
+    "id": 3,
+    "title": "Event 3",
+    "url": "https://via.placeholder.com/600/24f355",
+    "thumbnailUrl": "https://via.placeholder.com/150/24f355"
+  },
+  {
+    "albumId": 1,
+    "id": 4,
+    "title": "Event 4",
+    "url": "https://via.placeholder.com/600/d32776",
+    "thumbnailUrl": "https://via.placeholder.com/150/d32776"
+  },
+  {
+    "albumId": 1,
+    "id": 5,
+    "title": "event 5",
+    "url": "https://via.placeholder.com/600/f66b97",
+    "thumbnailUrl": "https://via.placeholder.com/150/f66b97"
+  },
+
+  ]
